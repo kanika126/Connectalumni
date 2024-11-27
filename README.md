@@ -43,21 +43,46 @@ The platform allows users to build and manage their profiles, showcasing achieve
 
 
 To run the project
+
+
 Clone https://github.com/kanika126/Connectalumni.git
+
+
 Open folder in VS Code
 
+
+
 Create an .env file in backend folder and add 
+
+
 PORT=
+
+
 CONNECTION_STRING=
 
 
+
+
 In Termainal run:
+
+
 npm install
+
+
 npm run dev
 
 
+
 Split the terminal and run:
+
+
 cd backend
+
+
 npm install
+
+
 npm start
+
+
 
