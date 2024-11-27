@@ -19,10 +19,10 @@ const addAdmin = async (req, res) => {
     const { email, username, password } = req.body;
 
     // Hash the password before saving
-    //const hashedPassword = await bcrypt.hash(password, 10); // 10 is the number of salt rounds
+    const hashedPassword = await bcrypt.hash(password, 10); // 10 is the number of salt rounds
 
     // Create a new admin with the hashed password
-    const newAdmin = new Admin({ email, username, password});
+    const newAdmin = new Admin({ email, username, password: hashedPassword});
     
     // Save the admin to the database
     const savedAdmin = await newAdmin.save();
