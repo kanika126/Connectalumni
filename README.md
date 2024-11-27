@@ -15,14 +15,19 @@ It offers a dedicated resources page, providing a valuable repository of materia
 
 
 Technology used for Project Development:
+
 Front-End: Tailwind CSS, React 
+
 Back-End: NodeJS , NPM, ExpressJS
+
 Integrated Development Environment (IDE): VS Code
+
 Database: MongoDB
 
 
 
 Project Modules:
+
 Admin - The admin panel serves as the center of the system, offering administrators the tools to review and approve alumni records.  It includes user management features, data validation tools, and analytics for insights into alumni engagement. Admins have the authority to review and approve alumni records, ensuring the accuracy and legitimacy of the information shared on the platform.
 
 
@@ -43,21 +48,45 @@ The platform allows users to build and manage their profiles, showcasing achieve
 
 
 To run the project
-Clone 
+
+
+Clone https://github.com/kanika126/Connectalumni.git
+
+
 Open folder in VS Code
 
-Create an .env file and add 
+
+
+Create an .env file in backend folder and add 
+
+
 PORT=
+
+
 CONNECTION_STRING=
 
 
+
 In Termainal run:
+
+
 npm install
+
+
 npm run dev
 
 
+
 Split the terminal and run:
+
+
 cd backend
+
+
 npm install
+
+
 npm start
+
+
 
