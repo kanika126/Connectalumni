@@ -15,14 +15,19 @@ It offers a dedicated resources page, providing a valuable repository of materia
 
 
 Technology used for Project Development:
+
 Front-End: Tailwind CSS, React 
+
 Back-End: NodeJS , NPM, ExpressJS
+
 Integrated Development Environment (IDE): VS Code
+
 Database: MongoDB
 
 
 
 Project Modules:
+
 Admin - The admin panel serves as the center of the system, offering administrators the tools to review and approve alumni records.  It includes user management features, data validation tools, and analytics for insights into alumni engagement. Admins have the authority to review and approve alumni records, ensuring the accuracy and legitimacy of the information shared on the platform.
 
 
@@ -59,7 +64,6 @@ PORT=
 
 
 CONNECTION_STRING=
-
 
 
 
