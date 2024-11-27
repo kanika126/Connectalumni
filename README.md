@@ -7,6 +7,7 @@ The system celebrates alumni achievements, facilitates knowledge exchange, and o
 
 
 Alumni Connect is a user-friendly website created using the MERN stack and Tailwind CSS, connecting college students and alumni. 
+It has a Role-Based Access Control (RBAC) User Interface where admin have access to give permissions to experiences shared by alumnis to show on feed. On login both the admin and users have different UI.
 Students and alumni can log in using their college email, share their academic and work experiences, and engage with others through  dynamic activity feed. 
 The platform allows users to build and manage their profiles, showcasing achievements and connecting with fellow community members. 
 Admins have a straightforward panel for approving and managing content to ensure accuracy and authenticity. 
